@@ -1,5 +1,5 @@
 export default function VenueCard({ venue }) {
-  const capacityStr = venue.capacity ? `MEM_ALLOC: ${venue.capacity}b` : 'MEM_ALLOC: UNKNOWN';
+  const capacityStr = venue.capacity ? `VENUE CAPACITY: ${venue.capacity}b` : 'VENUE CAPACITY: UNKNOWN';
 
   return (
     <header className="venue-header">

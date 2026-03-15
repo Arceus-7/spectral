@@ -51,7 +51,7 @@ function App() {
           {loading && !data && (
             <div className="retro-window main-window fade-in" style={{ maxWidth: '400px' }}>
               <div className="window-header">
-                <span className="window-title">C:\EXECUTE.EXE</span>
+                <span className="window-title">LIVE_FEED</span>
               </div>
               <div className="window-content" style={{ padding: '3rem', alignItems: 'center' }}>
                 <div className="loading-wrapper">
@@ -76,7 +76,7 @@ function App() {
           {data && (
             <div className={`retro-window main-window ${fading ? 'fade-out' : 'fade-in'}`}>
               <div className="window-header">
-                <span className="window-title">LIVE_FEED.EXE</span>
+                <span className="window-title">LIVE_FEED</span>
               </div>
               
               <div className="window-content">
@@ -92,7 +92,7 @@ function App() {
                   onClick={handleNext} 
                   disabled={loading}
                 >
-                  {loading ? 'HACKING...' : 'REROUTE IP ADDRESS'}
+                  {loading ? 'Finding a new setlist...' : 'FIND A NEW SHOW'}
                 </button>
               </div>
             </div>

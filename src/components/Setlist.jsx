@@ -6,7 +6,7 @@ export default function Setlist({ artist, songs }) {
 
   return (
     <div className="setlist-container">
-      <h2 className="setlist-artist">TARGET: {artist}</h2>
+      <h2 className="setlist-artist">BAND: {artist}</h2>
       
       <ul className="song-list">
         {mainSet.map((song, i) => (
